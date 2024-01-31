@@ -1,0 +1,3 @@
+../Src/stm32f4xx_cryp_aes.c:104:13:CRYP_AES_ECB	14
+../Src/stm32f4xx_cryp_aes.c:285:13:CRYP_AES_CBC	14
+../Src/stm32f4xx_cryp_aes.c:481:13:CRYP_AES_CTR	11

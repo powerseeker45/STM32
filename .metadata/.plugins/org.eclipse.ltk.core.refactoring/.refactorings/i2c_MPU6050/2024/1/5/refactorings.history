@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;inc_drivers&apos; to &apos;Drivers&apos;" description="Move &apos;inc_drivers&apos; to &apos;Drivers&apos;" destination="Drivers" element1="Core/Src/inc_drivers" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1706625650256" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;inc_drivers&apos; to &apos;Src&apos;" description="Move &apos;inc_drivers&apos; to &apos;Src&apos;" destination="Core/Src" element1="Drivers/inc_drivers" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1706625692823" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+../Src/stm32f4xx_syscfg.c:92:6:SYSCFG_DeInit	1
+../Src/stm32f4xx_syscfg.c:108:6:SYSCFG_MemoryRemapConfig	1
+../Src/stm32f4xx_syscfg.c:125:6:SYSCFG_EXTILineConfig	1
+../Src/stm32f4xx_syscfg.c:146:6:SYSCFG_ETH_MediaInterfaceConfig	1
+../Src/stm32f4xx_syscfg.c:163:6:SYSCFG_CompensationCellCmd	1
+../Src/stm32f4xx_syscfg.c:176:12:SYSCFG_GetCompensationCellStatus	2

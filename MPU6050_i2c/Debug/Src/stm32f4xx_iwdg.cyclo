@@ -1,0 +1,6 @@
+../Src/stm32f4xx_iwdg.c:135:6:IWDG_WriteAccessCmd	1
+../Src/stm32f4xx_iwdg.c:155:6:IWDG_SetPrescaler	1
+../Src/stm32f4xx_iwdg.c:168:6:IWDG_SetReload	1
+../Src/stm32f4xx_iwdg.c:181:6:IWDG_ReloadCounter	1
+../Src/stm32f4xx_iwdg.c:207:6:IWDG_Enable	1
+../Src/stm32f4xx_iwdg.c:236:12:IWDG_GetFlagStatus	2

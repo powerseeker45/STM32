@@ -1,0 +1,8 @@
+../Src/stm32f4xx_rng.c:100:6:RNG_DeInit	1
+../Src/stm32f4xx_rng.c:115:6:RNG_Cmd	2
+../Src/stm32f4xx_rng.c:177:10:RNG_GetRandomNumber	1
+../Src/stm32f4xx_rng.c:274:6:RNG_ITConfig	2
+../Src/stm32f4xx_rng.c:300:12:RNG_GetFlagStatus	2
+../Src/stm32f4xx_rng.c:333:6:RNG_ClearFlag	1
+../Src/stm32f4xx_rng.c:349:10:RNG_GetITStatus	2
+../Src/stm32f4xx_rng.c:379:6:RNG_ClearITPendingBit	1

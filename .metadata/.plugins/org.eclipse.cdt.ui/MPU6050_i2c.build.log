@@ -1,0 +1,646 @@
+19:55:36 **** Incremental Build of configuration Debug for project MPU6050_i2c ****
+make -j8 all 
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_core" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/src_drivers" -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/copy_to_project" -I../Core/Inc -I"D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c" -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o"
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:62:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:86:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:108:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_EnableCompensationCell':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c: In function 'HAL_EXTI_SetConfigLine':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:200:44: error: 'SYSCFG_EXTICR1_EXTI1_Pos' undeclared (first use in this function); did you mean 'SYSCFG_EXTICR1_EXTI1_PE'?
+  200 |       regval &= ~(SYSCFG_EXTICR1_EXTI0 << (SYSCFG_EXTICR1_EXTI1_Pos * (linepos & 0x03u)));
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            SYSCFG_EXTICR1_EXTI1_PE
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:200:44: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:77:35: error: 'SYSCFG_CMPCR_CMP_PD_Pos' undeclared (first use in this function); did you mean 'SYSCFG_CMPCR_CMP_PD'?
+   77 | #define CMP_PD_BIT_NUMBER         SYSCFG_CMPCR_CMP_PD_Pos
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:78:87: note: in expansion of macro 'CMP_PD_BIT_NUMBER'
+   78 | #define CMPCR_CMP_PD_BB           (uint32_t)(PERIPH_BB_BASE + (CMPCR_OFFSET * 32U) + (CMP_PD_BIT_NUMBER * 4U))
+      |                                                                                       ^~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:527:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+  527 |   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+      |                     ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:77:35: note: each undeclared identifier is reported only once for each function it appears in
+   77 | #define CMP_PD_BIT_NUMBER         SYSCFG_CMPCR_CMP_PD_Pos
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:78:87: note: in expansion of macro 'CMP_PD_BIT_NUMBER'
+   78 | #define CMPCR_CMP_PD_BB           (uint32_t)(PERIPH_BB_BASE + (CMPCR_OFFSET * 32U) + (CMP_PD_BIT_NUMBER * 4U))
+      |                                                                                       ^~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:527:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+  527 |   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)ENABLE;
+      |                     ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c: In function 'HAL_EXTI_GetConfigLine':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:304:42: error: 'SYSCFG_EXTICR1_EXTI1_Pos' undeclared (first use in this function); did you mean 'SYSCFG_EXTICR1_EXTI1_PE'?
+  304 |       pExtiConfig->GPIOSel = (regval >> (SYSCFG_EXTICR1_EXTI1_Pos * (linepos & 0x03u))) & SYSCFG_EXTICR1_EXTI0;
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          SYSCFG_EXTICR1_EXTI1_PE
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c: In function 'HAL_EXTI_ClearConfigLine':
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:353:44: error: 'SYSCFG_EXTICR1_EXTI1_Pos' undeclared (first use in this function); did you mean 'SYSCFG_EXTICR1_EXTI1_PE'?
+  353 |       regval &= ~(SYSCFG_EXTICR1_EXTI0 << (SYSCFG_EXTICR1_EXTI1_Pos * (linepos & 0x03u)));
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            SYSCFG_EXTICR1_EXTI1_PE
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_DisableCompensationCell':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:77:35: error: 'SYSCFG_CMPCR_CMP_PD_Pos' undeclared (first use in this function); did you mean 'SYSCFG_CMPCR_CMP_PD'?
+   77 | #define CMP_PD_BIT_NUMBER         SYSCFG_CMPCR_CMP_PD_Pos
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:78:87: note: in expansion of macro 'CMP_PD_BIT_NUMBER'
+   78 | #define CMPCR_CMP_PD_BB           (uint32_t)(PERIPH_BB_BASE + (CMPCR_OFFSET * 32U) + (CMP_PD_BIT_NUMBER * 4U))
+      |                                                                                       ^~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:538:21: note: in expansion of macro 'CMPCR_CMP_PD_BB'
+  538 |   *(__IO uint32_t *)CMPCR_CMP_PD_BB = (uint32_t)DISABLE;
+      |                     ^~~~~~~~~~~~~~~
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:36:
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_GetUIDw0':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:547:34: error: 'UID_BASE' undeclared (first use in this function); did you mean 'TIM1_BASE'?
+  547 |   return (READ_REG(*((uint32_t *)UID_BASE)));
+      |                                  ^~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12046:33: note: in definition of macro 'READ_REG'
+12046 | #define READ_REG(REG)         ((REG))
+      |                                 ^~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_GetUIDw1':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:556:35: error: 'UID_BASE' undeclared (first use in this function); did you mean 'TIM1_BASE'?
+  556 |   return (READ_REG(*((uint32_t *)(UID_BASE + 4U))));
+      |                                   ^~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12046:33: note: in definition of macro 'READ_REG'
+12046 | #define READ_REG(REG)         ((REG))
+      |                                 ^~~
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:23:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_GetUIDw2':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:565:35: error: 'UID_BASE' undeclared (first use in this function); did you mean 'TIM1_BASE'?
+  565 |   return (READ_REG(*((uint32_t *)(UID_BASE + 8U))));
+      |                                   ^~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12046:33: note: in definition of macro 'READ_REG'
+12046 | #define READ_REG(REG)         ((REG))
+      |                                 ^~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_GetUIDw0':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:548:1: warning: control reaches end of non-void function [-Wreturn-type]
+  548 | }
+      | ^
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_GetUIDw1':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:557:1: warning: control reaches end of non-void function [-Wreturn-type]
+  557 | }
+      | ^
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c: In function 'HAL_GetUIDw2':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c: In function 'HAL_GPIO_LockPin':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:566:1: warning: control reaches end of non-void function [-Wreturn-type]
+  566 | }
+      | ^
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:460:23: error: 'GPIO_LCKR_LCKK' undeclared (first use in this function)
+  460 |   __IO uint32_t tmp = GPIO_LCKR_LCKK;
+      |                       ^~~~~~~~~~~~~~
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:67:
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11582: warning: "DBGMCU_APB2_FZ_DBG_TIM1_STOP" redefined
+11582 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        DBGMCU_APB1_FZ_DBG_TIM1_STOP
+      | 
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:75: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.o] Error 1
+make: *** Waiting for unfinished jobs....
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11575: note: this is the location of the previous definition
+11575 | #define  DBGMCU_APB2_FZ_DBG_TIM1_STOP        ((uint32_t)0x00000001)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11583: warning: "DBGMCU_APB2_FZ_DBG_TIM8_STOP" redefined
+11583 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        DBGMCU_APB1_FZ_DBG_TIM8_STOP
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:460:23: note: each undeclared identifier is reported only once for each function it appears in
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11576: note: this is the location of the previous definition
+11576 | #define  DBGMCU_APB2_FZ_DBG_TIM8_STOP        ((uint32_t)0x00000002)
+      | 
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:383,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:24:
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c: In function 'HAL_PWR_EnableBkUpAccess':
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11584: warning: "DBGMCU_APB2_FZ_DBG_TIM9_STOP" redefined
+11584 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        DBGMCU_APB1_FZ_DBG_TIM9_STOP
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_Erase_Sector':
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11577: note: this is the location of the previous definition
+11577 | #define  DBGMCU_APB2_FZ_DBG_TIM9_STOP        ((uint32_t)0x00010000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:485:1: warning: control reaches end of non-void function [-Wreturn-type]
+  485 | }
+      | ^
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1009:42: error: 'FLASH_CR_SNB_Pos' undeclared (first use in this function); did you mean 'FLASH_CR_SNB_0'?
+ 1009 |   FLASH->CR |= FLASH_CR_SER | (Sector << FLASH_CR_SNB_Pos);
+      |                                          ^~~~~~~~~~~~~~~~
+      |                                          FLASH_CR_SNB_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:361:26: error: 'PWR_CR_DBP_Pos' undeclared (first use in this function); did you mean 'PWR_CR_DBP'?
+  361 | #define DBP_BIT_NUMBER   PWR_CR_DBP_Pos
+      |                          ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:362:82: note: in expansion of macro 'DBP_BIT_NUMBER'
+  362 | #define CR_DBP_BB        (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (DBP_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:111:22: note: in expansion of macro 'CR_DBP_BB'
+  111 |   *(__IO uint32_t *) CR_DBP_BB = (uint32_t)ENABLE;
+      |                      ^~~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11585: warning: "DBGMCU_APB2_FZ_DBG_TIM10_STOP" redefined
+11585 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       DBGMCU_APB1_FZ_DBG_TIM10_STOP
+      | 
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:67: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o] Error 1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1009:42: note: each undeclared identifier is reported only once for each function it appears in
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11578: note: this is the location of the previous definition
+11578 | #define  DBGMCU_APB2_FZ_DBG_TIM10_STOP       ((uint32_t)0x00020000)
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11586: warning: "DBGMCU_APB2_FZ_DBG_TIM11_STOP" redefined
+11586 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       DBGMCU_APB1_FZ_DBG_TIM11_STOP
+      | 
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:11579: note: this is the location of the previous definition
+11579 | #define  DBGMCU_APB2_FZ_DBG_TIM11_STOP       ((uint32_t)0x00040000)
+      | 
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:361:26: note: each undeclared identifier is reported only once for each function it appears in
+  361 | #define DBP_BIT_NUMBER   PWR_CR_DBP_Pos
+      |                          ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:362:82: note: in expansion of macro 'DBP_BIT_NUMBER'
+  362 | #define CR_DBP_BB        (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (DBP_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:111:22: note: in expansion of macro 'CR_DBP_BB'
+  111 |   *(__IO uint32_t *) CR_DBP_BB = (uint32_t)ENABLE;
+      |                      ^~~~~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:83: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o] Error 1
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:275,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:383,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:23:
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c: In function 'HAL_PWREx_EnableBkUpReg':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:275:26: error: 'PWR_CSR_BRE_Pos' undeclared (first use in this function); did you mean 'PWR_CSR_BRE'?
+  275 | #define BRE_BIT_NUMBER   PWR_CSR_BRE_Pos
+      |                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:276:82: note: in expansion of macro 'BRE_BIT_NUMBER'
+  276 | #define CSR_BRE_BB      (uint32_t)(PERIPH_BB_BASE + (PWR_CSR_OFFSET_BB * 32U) + (BRE_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:145:22: note: in expansion of macro 'CSR_BRE_BB'
+  145 |   *(__IO uint32_t *) CSR_BRE_BB = (uint32_t)ENABLE;
+      |                      ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:275:26: note: each undeclared identifier is reported only once for each function it appears in
+  275 | #define BRE_BIT_NUMBER   PWR_CSR_BRE_Pos
+      |                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:276:82: note: in expansion of macro 'BRE_BIT_NUMBER'
+  276 | #define CSR_BRE_BB      (uint32_t)(PERIPH_BB_BASE + (PWR_CSR_OFFSET_BB * 32U) + (BRE_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:145:22: note: in expansion of macro 'CSR_BRE_BB'
+  145 |   *(__IO uint32_t *) CSR_BRE_BB = (uint32_t)ENABLE;
+      |                      ^~~~~~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:79: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o] Error 1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c: In function 'HAL_PWR_DisableBkUpAccess':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:361:26: error: 'PWR_CR_DBP_Pos' undeclared (first use in this function); did you mean 'PWR_CR_DBP'?
+  361 | #define DBP_BIT_NUMBER   PWR_CR_DBP_Pos
+      |                          ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:362:82: note: in expansion of macro 'DBP_BIT_NUMBER'
+  362 | #define CR_DBP_BB        (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (DBP_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:131:22: note: in expansion of macro 'CR_DBP_BB'
+  131 |   *(__IO uint32_t *) CR_DBP_BB = (uint32_t)DISABLE;
+      |                      ^~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c: In function 'HAL_PWREx_DisableBkUpReg':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:275:26: error: 'PWR_CSR_BRE_Pos' undeclared (first use in this function); did you mean 'PWR_CSR_BRE'?
+  275 | #define BRE_BIT_NUMBER   PWR_CSR_BRE_Pos
+      |                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:276:82: note: in expansion of macro 'BRE_BIT_NUMBER'
+  276 | #define CSR_BRE_BB      (uint32_t)(PERIPH_BB_BASE + (PWR_CSR_OFFSET_BB * 32U) + (BRE_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:169:22: note: in expansion of macro 'CSR_BRE_BB'
+  169 |   *(__IO uint32_t *) CSR_BRE_BB = (uint32_t)DISABLE;
+      |                      ^~~~~~~~~~
+In file included from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:31,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:23:
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c: In function 'HAL_RCCEx_PeriphCLKConfig':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c: In function 'HAL_PWR_EnablePVD':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:365:26: error: 'PWR_CR_PVDE_Pos' undeclared (first use in this function); did you mean 'PWR_CR_PVDE'?
+  365 | #define PVDE_BIT_NUMBER  PWR_CR_PVDE_Pos
+      |                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:366:82: note: in expansion of macro 'PVDE_BIT_NUMBER'
+  366 | #define CR_PVDE_BB       (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (PVDE_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:320:22: note: in expansion of macro 'CR_PVDE_BB'
+  320 |   *(__IO uint32_t *) CR_PVDE_BB = (uint32_t)ENABLE;
+      |                      ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:5975:70: error: 'RCC_PLLI2SCFGR_PLLI2SN_Pos' undeclared (first use in this function); did you mean 'RCC_PLLI2SCFGR_PLLI2SN_0'?
+ 5975 |                                (RCC->PLLI2SCFGR = (((__PLLI2SN__) << RCC_PLLI2SCFGR_PLLI2SN_Pos)  |\
+      |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2574:5: note: in expansion of macro '__HAL_RCC_PLLI2S_CONFIG'
+ 2574 |     __HAL_RCC_PLLI2S_CONFIG(PeriphClkInit->PLLI2S.PLLI2SN , PeriphClkInit->PLLI2S.PLLI2SR);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:5975:70: note: each undeclared identifier is reported only once for each function it appears in
+ 5975 |                                (RCC->PLLI2SCFGR = (((__PLLI2SN__) << RCC_PLLI2SCFGR_PLLI2SN_Pos)  |\
+      |                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2574:5: note: in expansion of macro '__HAL_RCC_PLLI2S_CONFIG'
+ 2574 |     __HAL_RCC_PLLI2S_CONFIG(PeriphClkInit->PLLI2S.PLLI2SN , PeriphClkInit->PLLI2S.PLLI2SR);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c: In function 'HAL_PWREx_EnableFlashPowerDown':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:247:34: error: 'PWR_CR_FPDS_Pos' undeclared (first use in this function); did you mean 'PWR_CR_FPDS'?
+  247 | #define FPDS_BIT_NUMBER          PWR_CR_FPDS_Pos
+      |                                  ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:248:90: note: in expansion of macro 'FPDS_BIT_NUMBER'
+  248 | #define CR_FPDS_BB               (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (FPDS_BIT_NUMBER * 4U))
+      |                                                                                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:191:22: note: in expansion of macro 'CR_FPDS_BB'
+  191 |   *(__IO uint32_t *) CR_FPDS_BB = (uint32_t)ENABLE;
+      |                      ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c: In function 'HAL_PWR_DisablePVD':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:365:26: error: 'PWR_CR_PVDE_Pos' undeclared (first use in this function); did you mean 'PWR_CR_PVDE'?
+  365 | #define PVDE_BIT_NUMBER  PWR_CR_PVDE_Pos
+      |                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:366:82: note: in expansion of macro 'PVDE_BIT_NUMBER'
+  366 | #define CR_PVDE_BB       (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (PVDE_BIT_NUMBER * 4U))
+      |                                                                                  ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:329:22: note: in expansion of macro 'CR_PVDE_BB'
+  329 |   *(__IO uint32_t *) CR_PVDE_BB = (uint32_t)DISABLE;
+      |                      ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:5976:50: error: 'RCC_PLLI2SCFGR_PLLI2SR_Pos' undeclared (first use in this function); did you mean 'RCC_PLLI2SCFGR_PLLI2SR_0'?
+ 5976 |                                ((__PLLI2SR__) << RCC_PLLI2SCFGR_PLLI2SR_Pos)))
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2574:5: note: in expansion of macro '__HAL_RCC_PLLI2S_CONFIG'
+ 2574 |     __HAL_RCC_PLLI2S_CONFIG(PeriphClkInit->PLLI2S.PLLI2SN , PeriphClkInit->PLLI2S.PLLI2SR);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_OscConfig':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c: In function 'HAL_PWREx_DisableFlashPowerDown':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:247:34: error: 'PWR_CR_FPDS_Pos' undeclared (first use in this function); did you mean 'PWR_CR_FPDS'?
+  247 | #define FPDS_BIT_NUMBER          PWR_CR_FPDS_Pos
+      |                                  ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:248:90: note: in expansion of macro 'FPDS_BIT_NUMBER'
+  248 | #define CR_FPDS_BB               (uint32_t)(PERIPH_BB_BASE + (PWR_CR_OFFSET_BB * 32U) + (FPDS_BIT_NUMBER * 4U))
+      |                                                                                          ^~~~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:200:22: note: in expansion of macro 'CR_FPDS_BB'
+  200 |   *(__IO uint32_t *) CR_FPDS_BB = (uint32_t)DISABLE;
+      |                      ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:842:64: error: 'RCC_CR_HSITRIM_Pos' undeclared (first use in this function); did you mean 'RCC_CR_HSITRIM_0'?
+  842 |         RCC_CR_HSITRIM, (uint32_t)(__HSICalibrationValue__) << RCC_CR_HSITRIM_Pos))
+      |                                                                ^~~~~~~~~~~~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12044:41: note: in definition of macro 'WRITE_REG'
+12044 | #define WRITE_REG(REG, VAL)   ((REG) = (VAL))
+      |                                         ^~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:841:73: note: in expansion of macro 'MODIFY_REG'
+  841 | #define __HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST(__HSICalibrationValue__) (MODIFY_REG(RCC->CR,\
+      |                                                                         ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:301:9: note: in expansion of macro '__HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST'
+  301 |         __HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST(RCC_OscInitStruct->HSICalibrationValue);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:89: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o] Error 1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c: In function 'HAL_RCCEx_GetPeriphCLKConfig':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2669:92: error: 'RCC_PLLI2SCFGR_PLLI2SN_Pos' undeclared (first use in this function); did you mean 'RCC_PLLI2SCFGR_PLLI2SN_0'?
+ 2669 |   PeriphClkInit->PLLI2S.PLLI2SN = (uint32_t)((RCC->PLLI2SCFGR & RCC_PLLI2SCFGR_PLLI2SN) >> RCC_PLLI2SCFGR_PLLI2SN_Pos);
+      |                                                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                            RCC_PLLI2SCFGR_PLLI2SN_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:842:64: note: each undeclared identifier is reported only once for each function it appears in
+  842 |         RCC_CR_HSITRIM, (uint32_t)(__HSICalibrationValue__) << RCC_CR_HSITRIM_Pos))
+      |                                                                ^~~~~~~~~~~~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12044:41: note: in definition of macro 'WRITE_REG'
+12044 | #define WRITE_REG(REG, VAL)   ((REG) = (VAL))
+      |                                         ^~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:841:73: note: in expansion of macro 'MODIFY_REG'
+  841 | #define __HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST(__HSICalibrationValue__) (MODIFY_REG(RCC->CR,\
+      |                                                                         ^~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:301:9: note: in expansion of macro '__HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST'
+  301 |         __HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST(RCC_OscInitStruct->HSICalibrationValue);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:91: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o] Error 1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2670:92: error: 'RCC_PLLI2SCFGR_PLLI2SR_Pos' undeclared (first use in this function); did you mean 'RCC_PLLI2SCFGR_PLLI2SR_0'?
+ 2670 |   PeriphClkInit->PLLI2S.PLLI2SR = (uint32_t)((RCC->PLLI2SCFGR & RCC_PLLI2SCFGR_PLLI2SR) >> RCC_PLLI2SCFGR_PLLI2SR_Pos);
+      |                                                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                            RCC_PLLI2SCFGR_PLLI2SR_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:494:66: error: 'RCC_PLLCFGR_PLLN_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLN_0'?
+  494 |                                  (RCC_OscInitStruct->PLL.PLLN << RCC_PLLCFGR_PLLN_Pos)             | \
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12044:41: note: in definition of macro 'WRITE_REG'
+12044 | #define WRITE_REG(REG, VAL)   ((REG) = (VAL))
+      |                                         ^~~
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:95: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o] Error 1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:495:81: error: 'RCC_PLLCFGR_PLLP_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLP_0'?
+  495 |                                  (((RCC_OscInitStruct->PLL.PLLP >> 1U) - 1U) << RCC_PLLCFGR_PLLP_Pos) | \
+      |                                                                                 ^~~~~~~~~~~~~~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12044:41: note: in definition of macro 'WRITE_REG'
+12044 | #define WRITE_REG(REG, VAL)   ((REG) = (VAL))
+      |                                         ^~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:496:66: error: 'RCC_PLLCFGR_PLLQ_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLQ_0'?
+  496 |                                  (RCC_OscInitStruct->PLL.PLLQ << RCC_PLLCFGR_PLLQ_Pos)));
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~
+D:/parikshit/ODHS/STM32CubeIDE/MPU6050_i2c/Core/Src/inc_drivers/stm32f4xx.h:12044:41: note: in definition of macro 'WRITE_REG'
+12044 | #define WRITE_REG(REG, VAL)   ((REG) = (VAL))
+      |                                         ^~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:552:89: error: 'RCC_PLLCFGR_PLLM_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLM_1'?
+  552 |             (READ_BIT(pll_config, RCC_PLLCFGR_PLLM) != (RCC_OscInitStruct->PLL.PLLM) << RCC_PLLCFGR_PLLM_Pos) ||
+      |                                                                                         ^~~~~~~~~~~~~~~~~~~~
+      |                                                                                         RCC_PLLCFGR_PLLM_1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_ClockConfig':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:681:81: error: 'RCC_CFGR_SWS_Pos' undeclared (first use in this function); did you mean 'RCC_CFGR_SWS_PLL'?
+  681 |     while (__HAL_RCC_GET_SYSCLK_SOURCE() != (RCC_ClkInitStruct->SYSCLKSource << RCC_CFGR_SWS_Pos))
+      |                                                                                 ^~~~~~~~~~~~~~~~
+      |                                                                                 RCC_CFGR_SWS_PLL
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:719:50: error: 'AHBPrescTable' undeclared (first use in this function)
+  719 |   SystemCoreClock = HAL_RCC_GetSysClockFreq() >> AHBPrescTable[(RCC->CFGR & RCC_CFGR_HPRE)>> RCC_CFGR_HPRE_Pos];
+      |                                                  ^~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:719:94: error: 'RCC_CFGR_HPRE_Pos' undeclared (first use in this function); did you mean 'RCC_CFGR_HPRE_1'?
+  719 |   SystemCoreClock = HAL_RCC_GetSysClockFreq() >> AHBPrescTable[(RCC->CFGR & RCC_CFGR_HPRE)>> RCC_CFGR_HPRE_Pos];
+      |                                                                                              ^~~~~~~~~~~~~~~~~
+      |                                                                                              RCC_CFGR_HPRE_1
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_GetSysClockFreq':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:911:105: error: 'RCC_PLLCFGR_PLLN_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLN_0'?
+  911 |         pllvco = (uint32_t) ((((uint64_t) HSE_VALUE * ((uint64_t) ((RCC->PLLCFGR & RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos)))) / (uint64_t)pllm);
+      |                                                                                                         ^~~~~~~~~~~~~~~~~~~~
+      |                                                                                                         RCC_PLLCFGR_PLLN_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:918:54: error: 'RCC_PLLCFGR_PLLP_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLP_0'?
+  918 |       pllp = ((((RCC->PLLCFGR & RCC_PLLCFGR_PLLP) >> RCC_PLLCFGR_PLLP_Pos) + 1U) *2U);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~
+      |                                                      RCC_PLLCFGR_PLLP_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_GetPCLK1Freq':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:955:36: error: 'APBPrescTable' undeclared (first use in this function)
+  955 |   return (HAL_RCC_GetHCLKFreq() >> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE1)>> RCC_CFGR_PPRE1_Pos]);
+      |                                    ^~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:955:81: error: 'RCC_CFGR_PPRE1_Pos' undeclared (first use in this function); did you mean 'RCC_CFGR_PPRE1_2'?
+  955 |   return (HAL_RCC_GetHCLKFreq() >> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE1)>> RCC_CFGR_PPRE1_Pos]);
+      |                                                                                 ^~~~~~~~~~~~~~~~~~
+      |                                                                                 RCC_CFGR_PPRE1_2
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_GetPCLK2Freq':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:967:35: error: 'APBPrescTable' undeclared (first use in this function)
+  967 |   return (HAL_RCC_GetHCLKFreq()>> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE2)>> RCC_CFGR_PPRE2_Pos]);
+      |                                   ^~~~~~~~~~~~~
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:967:80: error: 'RCC_CFGR_PPRE2_Pos' undeclared (first use in this function); did you mean 'RCC_CFGR_PPRE2_0'?
+  967 |   return (HAL_RCC_GetHCLKFreq()>> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE2)>> RCC_CFGR_PPRE2_Pos]);
+      |                                                                                ^~~~~~~~~~~~~~~~~~
+      |                                                                                RCC_CFGR_PPRE2_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_GetOscConfig':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1006:84: error: 'RCC_CR_HSITRIM_Pos' undeclared (first use in this function); did you mean 'RCC_CR_HSITRIM_0'?
+ 1006 |   RCC_OscInitStruct->HSICalibrationValue = (uint32_t)((RCC->CR &RCC_CR_HSITRIM) >> RCC_CR_HSITRIM_Pos);
+      |                                                                                    ^~~~~~~~~~~~~~~~~~
+      |                                                                                    RCC_CR_HSITRIM_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1043:81: error: 'RCC_PLLCFGR_PLLN_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLN_0'?
+ 1043 |   RCC_OscInitStruct->PLL.PLLN = (uint32_t)((RCC->PLLCFGR & RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos);
+      |                                                                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                                                                 RCC_PLLCFGR_PLLN_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1044:112: error: 'RCC_PLLCFGR_PLLP_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLP_0'?
+ 1044 |   RCC_OscInitStruct->PLL.PLLP = (uint32_t)((((RCC->PLLCFGR & RCC_PLLCFGR_PLLP) + RCC_PLLCFGR_PLLP_0) << 1U) >> RCC_PLLCFGR_PLLP_Pos);
+      |                                                                                                                ^~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                RCC_PLLCFGR_PLLP_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1045:81: error: 'RCC_PLLCFGR_PLLQ_Pos' undeclared (first use in this function); did you mean 'RCC_PLLCFGR_PLLQ_0'?
+ 1045 |   RCC_OscInitStruct->PLL.PLLQ = (uint32_t)((RCC->PLLCFGR & RCC_PLLCFGR_PLLQ) >> RCC_PLLCFGR_PLLQ_Pos);
+      |                                                                                 ^~~~~~~~~~~~~~~~~~~~
+      |                                                                                 RCC_PLLCFGR_PLLQ_0
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_GetPCLK1Freq':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:956:1: warning: control reaches end of non-void function [-Wreturn-type]
+  956 | }
+      | ^
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c: In function 'HAL_RCC_GetPCLK2Freq':
+C:/Users/shash/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:968:1: warning: control reaches end of non-void function [-Wreturn-type]
+  968 | }
+      | ^
+make: *** [Drivers/STM32F4xx_HAL_Driver/subdir.mk:93: Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+19:55:37 Build Failed. 49 errors, 46 warnings. (took 1s.310ms)
+

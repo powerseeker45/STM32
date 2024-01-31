@@ -1,0 +1,2 @@
+../Src/stm32f4xx_cryp_des.c:100:13:CRYP_DES_ECB	7
+../Src/stm32f4xx_cryp_des.c:195:13:CRYP_DES_CBC	7
