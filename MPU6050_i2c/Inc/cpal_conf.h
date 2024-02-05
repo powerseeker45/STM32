@@ -336,8 +336,8 @@
                  At least one I2C device should be selected. */
         
 #define CPAL_USE_I2C1          /*<! Uncomment to use I2C1 device */
-#define CPAL_USE_I2C2          /*<! Uncomment to use I2C2 device */
-#define CPAL_USE_I2C3          /*<! Uncomment to use I2C3 device */
+//#define CPAL_USE_I2C2          /*<! Uncomment to use I2C2 device */
+//#define CPAL_USE_I2C3          /*<! Uncomment to use I2C3 device */
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
@@ -352,7 +352,7 @@
 
 
 /* Enable the use of Slave Mode */
-#define CPAL_I2C_SLAVE_MODE
+//#define CPAL_I2C_SLAVE_MODE
 
 
 /* Enable Listen mode for slave device */
@@ -360,12 +360,12 @@
 
 
 /* Enable the use of DMA Programming Model */
-#define CPAL_I2C_DMA_PROGMODEL
+//#define CPAL_I2C_DMA_PROGMODEL
 
 
 /* Enable 1 Byte reception with DMA Programming Model */
 /* NOTE : This option must be set if user will use DMA for receiving 1 Byte */
-#define CPAL_I2C_DMA_1BYTE_CASE
+//#define CPAL_I2C_DMA_1BYTE_CASE
 
 
 /* Enable the use of IT Programming Model */
@@ -373,12 +373,12 @@
 
 
 /* Enable the use of 10Bit Addressing Mode */
-#define CPAL_I2C_10BIT_ADDR_MODE
+//#define CPAL_I2C_10BIT_ADDR_MODE
 
 
 /* Enable the use of 16Bit Address memory register option 
       !! This define is available only when CPAL_I2C_MASTER_MODE is enabled !!  */
-#define CPAL_16BIT_REG_OPTION
+//#define CPAL_16BIT_REG_OPTION
 
 
 /* Select which Closing communication Method is used for master receiver */

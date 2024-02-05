@@ -16,14 +16,96 @@
  ******************************************************************************
  */
 
-#include <stdint.h>
+//#include <stdint.h> already defined in cpal_i2c.h
+
+#include "cpal_i2c.h"
+
+
+
+
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
 #endif
 
+
+#define MPU6050_ADDRESS        0b110100<<1;  //address of MPU6050
+#define MPU6050_WHO_AM_I_REG    0x75		//address of the who_am_i register (register no 117)
+
+
+void GPIO_Configuration(void) {
+    // Enable I2C1 clock
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
+
+    // Initialize GPIO for I2C1
+    // Configure GPIO pins for I2C1 SCL and SDA
+    // PB6 for I2C1_SCL and PB7 for I2C1_SDA
+
+    GPIO_InitTypeDef GPIO_InitStructure;
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStructure.GPIO_OType = GPIO_OType_OD;
+    GPIO_InitStructure.GPIO_PuPd  = GPIO_PuPd_NOPULL;
+    GPIO_Init(GPIOB, &GPIO_InitStructure);
+
+    // Connect I2C1 pins to AF (Alternate Function)
+    GPIO_PinAFConfig(GPIOB, GPIO_PinSource6, GPIO_AF_I2C1);
+    GPIO_PinAFConfig(GPIOB, GPIO_PinSource7, GPIO_AF_I2C1);
+}
+
+void i2c(void)
+{
+
+	CPAL_TransferTypeDef MpuRx;  //CPAL Transfer structure contains all transfer parameters which are used in every Read or Write operation.
+	uint8_t MpuData; //buffer to save the read data
+	I2C_InitTypeDef i2cStructure;
+
+	MpuRx.pbBuffer= &MpuData; //The address of the buffer from/to which the transfer should start
+	MpuRx.wAddr1= MPU6050_ADDRESS; //target device address
+	MpuRx.wAddr2= MPU6050_WHO_AM_I_REG; // target register into the device address
+	MpuRx.wNumData=1u;	//number of data to be transfered
+
+
+
+	CPAL_I2C_StructInit(&I2C1_DevStructure);
+	I2C1_DevStructure.CPAL_Mode=CPAL_MODE_MASTER;
+	I2C1_DevStructure.CPAL_ProgModel= CPAL_PROGMODEL_INTERRUPT;
+	I2C1_DevStructure.pCPAL_I2C_Struct= &i2cStructure;
+	I2C1_DevStructure.pCPAL_TransferRx=&MpuRx;
+	I2C1_DevStructure.pCPAL_TransferTx=pNULL;
+
+
+	i2cStructure.I2C_ClockSpeed= 100000;
+	i2cStructure.I2C_Mode=I2C_Mode_I2C;
+	i2cStructure.I2C_Ack= I2C_Ack_Enable;
+	i2cStructure.I2C_AcknowledgedAddress= I2C_AcknowledgedAddress_7bit;
+	i2cStructure.I2C_OwnAddress1=0;
+
+
+
+
+
+	CPAL_I2C_Init(&I2C1_DevStructure);
+
+	CPAL_I2C_Read(&I2C1_DevStructure);
+
+	while (I2C1_DevStructure.CPAL_State!=CPAL_STATE_READY);
+
+
+
+
+
+}
+
+
 int main(void)
 {
-    /* Loop forever */
-	for(;;);
+	GPIO_Configuration();
+	i2c();
+
+	    while (1) {
+	        // Main loop
+	    }
 }
+

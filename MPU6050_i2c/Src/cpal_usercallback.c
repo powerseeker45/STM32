@@ -52,7 +52,7 @@
   */
 uint32_t CPAL_TIMEOUT_UserCallback(CPAL_InitTypeDef* pDevInitStruct)
 {
- 
+
   return CPAL_PASS;
 }
 
