@@ -1,0 +1,10 @@
+20:02:03 **** Incremental Build of configuration Debug for project freeRTOS_ledToggle ****
+make -j8 all 
+arm-none-eabi-size  freeRTOS_ledToggle.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21560	    116	  20756	  42432	   a5c0	freeRTOS_ledToggle.elf
+Finished building: default.size.stdout
+ 
+
+20:02:04 Build Finished. 0 errors, 0 warnings. (took 581ms)
+

@@ -1,7 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:i2c_STM32L4_MPU6050 Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:i2c_STM32L4_MPU6050 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MPU6050_i2c Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PWM_LED_Fade Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:led2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timer_Interupts_multiLEDToggle Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:timers_interupts_LED Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:freeRTOS_1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:freeRTOS_ledToggle Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:freeRTOS_LEDToggle2 Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MPU6050_i2c\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MPU6050_i2c\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:i2c_STM32L4_MPU6050\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:i2c_STM32L4_MPU6050\ Debug/activeLaunchTarget=null\:---
